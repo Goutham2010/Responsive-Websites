@@ -1,0 +1,153 @@
+<doctype! html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg); 
+background-position: center;
+background-size: cover;
+position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+nav img {
+height: 175px;
+width: 250px;
+position: absolute;
+left: 0;
+top: 0; 
+}
+.nav-links {
+flex: 1;
+text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+}
+.nav-links ul li:hover::after  {
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 62px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+nav .fas {
+    display: none;
+}
+@media(max-width: 700px) {
+    nav img {
+        height: 100px;
+        width: 150px;
+    }
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links {
+    position:absolute;
+    background:#f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align:left;
+    z-index:2;
+    }
+    nav .fas {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .nav-links ul {
+        padding: 30px;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <u></u>
+<div>
+    <section class="m_header">
+<u></u>
+    <a href="https://www.google.com/url?q=http://index.html&amp;source=gmail-html&amp;ust=1703769129069000&amp;usg=AOvVaw2Jd1_laKVxnMRiSZ_GYp1z" target="_blank" rel="noreferrer"><img src="https://ci5.googleusercontent.com/proxy/RjzysSNb43Fu7NnJBuNEa6s5lRUN_SM07l8DVXVBp-S86tm-fo8ajJM=s0-d-e1-ft#http://images/logo.PNG" alt="sorry image not available"></a>
+    <div class="m_nav-links" id="m_navLinks">
+        <i class="m_fas m_fa-times"></i>
+    <ul>
+    <li><a rel="noreferrer">HOME</a></li>
+    <li><a rel="noreferrer">ABOUT</a></li>
+    <li><a rel="noreferrer">EDUPEDIA</a></li>
+</ul>
+    </div>
+    <i class="m_fas m_fa-bars"></i>
+<u></u>
+<div class="m_text-box">
+    <h1>World's most helpful Web for Students</h1>
+    <p>Studying is easy with Edutech. One stop for all education related issues. <br>
+    Learn with Edutech and Ace your Exams.</p>
+</div>
+    </section>
+
+</div>
+</body></html>
